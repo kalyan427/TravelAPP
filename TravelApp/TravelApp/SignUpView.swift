@@ -28,9 +28,7 @@ struct SignUpView: View {
             Spacer()
                 .frame(height: 140)
             
-            Button(action: {
-                
-            }, label: {
+            NavigationLink(destination: NewAccountView()) {
                 Text("Create an account")
                     .font(.headline)
                     .foregroundStyle(.white)
@@ -39,7 +37,7 @@ struct SignUpView: View {
                     .background(.orange)
                     .cornerRadius(40)
                     .padding(.horizontal, 20)
-            })
+            }
             
             Button(action: {
                 
