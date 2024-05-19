@@ -20,7 +20,7 @@ struct NewAccountView: View {
             VStack {
                 HStack {
                     Button(action: {
-                        
+                        presentationMode.wrappedValue.dismiss()
                     }, label: {
                         Image(systemName: "arrow.left")
                             .foregroundColor(.orange)
@@ -31,10 +31,14 @@ struct NewAccountView: View {
                 
                 Spacer().frame(height: 20)
                 
-                Text("Create new account")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .padding(.bottom, 40)
+                HStack {
+                    Text("Create new account")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                    Spacer()
+                }
+                .padding(.horizontal, 20)
+                .padding(.bottom, 20)
                 
                 TextField("Name", text: $name)
                     .padding()

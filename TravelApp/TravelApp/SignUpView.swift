@@ -39,15 +39,12 @@ struct SignUpView: View {
                     .padding(.horizontal, 20)
             }
             
-            Button(action: {
-                
-            }, label: {
+            NavigationLink(destination: LogInView()) {
                 Text("Already on Travel? Log In")
                     .font(.subheadline)
                     .foregroundStyle(.gray)
                     .padding(.top, 10)
-            })
-            
+            }
         }
         .padding()
     }
