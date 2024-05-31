@@ -16,6 +16,7 @@
 		F7351AC12BF9002000F79B06 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = F7351AC02BF9002000F79B06 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		F7351AC32BF9002000F79B06 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = F7351AC22BF9002000F79B06 /* FirebaseAppCheck */; };
 		F7351AC52BF944D100F79B06 /* NewAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7351AC42BF944D100F79B06 /* NewAccountView.swift */; };
+		F75787432C09839D00BDB281 /* BottomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75787422C09839D00BDB281 /* BottomTabBarView.swift */; };
 		F761B2972BF81409002BE051 /* TravelAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F761B2962BF81409002BE051 /* TravelAppApp.swift */; };
 		F761B2992BF81409002BE051 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F761B2982BF81409002BE051 /* SignUpView.swift */; };
 		F761B29B2BF8140A002BE051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F761B29A2BF8140A002BE051 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		F7012A5E2BF9662F00E6CA98 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		F7351AB72BF8FCF900F79B06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F7351AC42BF944D100F79B06 /* NewAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountView.swift; sourceTree = "<group>"; };
+		F75787422C09839D00BDB281 /* BottomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabBarView.swift; sourceTree = "<group>"; };
 		F761B2932BF81409002BE051 /* TravelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F761B2962BF81409002BE051 /* TravelAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppApp.swift; sourceTree = "<group>"; };
 		F761B2982BF81409002BE051 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				F7351AC42BF944D100F79B06 /* NewAccountView.swift */,
 				F761B2982BF81409002BE051 /* SignUpView.swift */,
 				F7EE93122BFC196900356F97 /* ResetPasswordView.swift */,
+				F75787422C09839D00BDB281 /* BottomTabBarView.swift */,
 				F761B29A2BF8140A002BE051 /* Assets.xcassets */,
 				F7351AB72BF8FCF900F79B06 /* GoogleService-Info.plist */,
 				F761B29C2BF8140A002BE051 /* Preview Content */,
@@ -184,6 +187,7 @@
 				F761B2992BF81409002BE051 /* SignUpView.swift in Sources */,
 				F7351AC52BF944D100F79B06 /* NewAccountView.swift in Sources */,
 				F7EE93132BFC196900356F97 /* ResetPasswordView.swift in Sources */,
+				F75787432C09839D00BDB281 /* BottomTabBarView.swift in Sources */,
 				F7012A5F2BF9662F00E6CA98 /* LogInView.swift in Sources */,
 				F761B2972BF81409002BE051 /* TravelAppApp.swift in Sources */,
 			);

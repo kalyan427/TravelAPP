@@ -23,7 +23,7 @@ struct TravelAppApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                SignUpView()
+                BottomTabBarView()
             }
         }
     }
