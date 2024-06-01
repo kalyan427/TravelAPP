@@ -10,25 +10,25 @@ import SwiftUI
 struct BottomTabBarView: View {
     var body: some View {
         TabView {
-            Text("Travel View")
+            TravelView()
                 .tabItem {
                     Image(systemName: "suitcase.fill")
                     Text("Travel")
                 }
             
-            Text("Flights View")
+            FlightsView()
                 .tabItem {
                     Image(systemName: "airplane")
                     Text("Flights")
                 }
             
-            Text("Hotels")
+            HotelsView()
                 .tabItem {
                     Image(systemName: "bed.double.fill")
                     Text("Hotels")
                 }
             
-            Text("Profile")
+            ProfileView()
                 .tabItem {
                     Image(systemName: "person.crop.circle.fill")
                     Text("Profile")
